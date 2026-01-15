@@ -1,0 +1,153 @@
+/* typography and basic Styling*/
+html {
+  scroll-behavior: smooth;
+}
+body {
+    background-color: #EFF3FB; /* lightmode background color */
+    color: #040811; /*lightmode text color */
+    font-family: 'JetBrains Mono', "Courier New", monospace;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #BC68DA; /* lightmode accent color*/
+}
+
+.primary-color {
+    color: #3E67D0; /* lightmode primary color*/
+}
+
+
+h1 {
+    font-size: 89.8px;
+    font-weight: normal;
+    margin: 0%;
+}
+
+h2 {
+    font-size: 67.3px;
+    font-weight: normal;
+    margin: 0%;
+}
+
+h3 {
+    font-size: 50.5px;
+    font-weight: normal;
+    margin: 0%;
+}
+
+h4 {
+    font-size: 37.9px;
+    font-weight: normal;
+    margin: 0%;
+}
+
+h5 {
+    font-size: 28.4px;
+    font-weight: normal;
+    margin: 0%;
+}
+
+h6 {
+    font-size: 21.3px;
+    font-weight: normal;
+    margin: 0%;
+}
+
+p {
+    font-size: 16px;
+}
+
+/*Navigation Menu */
+.navbar {
+    position: sticky;
+    width: 100vw;
+    top: 0;
+    left: 0;
+
+}
+
+#menu-list{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    height: 60px;
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+    overflow: hidden;
+    background-color: rgba(252, 216, 255, 0.65);
+    
+}
+
+
+
+.menu-button {
+    display: block;
+    text-align: center;
+    padding: 0px 20px;
+    color: #040811;
+    font-size: 21.3px;
+    text-decoration: none;
+}
+
+.menu-button:hover {
+    background-color: rgba(239,243,248,0.75);
+}
+
+
+.page-section {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 50px;
+}
+
+/* intro section */
+#intro-section {
+    margin-top: 65px;
+    display: flex;
+    flex-direction: row;
+}
+
+#intro-text {
+    order: 1;
+    width: 60%;
+}
+
+#intro-headshot{
+    order: 2;
+    width: auto;
+}
+
+/*education section */
+#education-section {
+    display: flex;
+    flex-direction: row;
+}
+
+#education-left{
+
+    width: 40%;
+}
+
+#education-right {
+    width: 60%;
+}
+
+/*experience section */
+#experience-section {
+    display: flex;
+    flex-direction: row;
+}
+
+#experience-left{
+
+    width: 40%;
+}
+
+#experience-right {
+
+    width: 60%;
+}
+
