@@ -6,6 +6,7 @@ body {
     background-color: #EFF3FB; /* lightmode background color */
     color: #040811; /*lightmode text color */
     font-family: 'JetBrains Mono', "Courier New", monospace;
+    font-size: 16px;
     margin: 0;
     padding: 0;
 }
