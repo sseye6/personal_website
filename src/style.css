@@ -174,7 +174,7 @@ p {
     flex-wrap: wrap;
 }
 
-/*experience section */
+/*projects section */
 #projects-section {
     display: flex;
     flex-direction: row;
@@ -186,6 +186,25 @@ p {
 }
 
 #projects-right {
-
     width: 60%;
+}
+
+#skills-section {
+    display: flex;
+    flex-direction: row;
+}
+
+#skills-left{
+
+    width: 40%;
+}
+
+#skills-right {
+    width: 60%;
+}
+
+.skill-holder {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
