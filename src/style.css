@@ -79,7 +79,7 @@ p {
 /*Navigation Menu */
 .navbar {
     position: sticky;
-    width: 100vw;
+    width: 100%;
     top: 0;
     left: 0;
 
