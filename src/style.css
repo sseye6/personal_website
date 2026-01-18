@@ -15,6 +15,22 @@ a {
     color: #BC68DA; /* lightmode accent color*/
 }
 
+button {
+    background-color: #bea0e3;
+    color: #040811; /*lightmode text color */
+    font-family: 'JetBrains Mono', "Courier New", monospace;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 12px;
+    border: 1px solid #B189E2;
+    font-size: 12px;
+    margin: 4px 2px;
+}
+
+
+
 .primary-color {
     color: #3E67D0; /* lightmode primary color*/
 }
@@ -152,3 +168,24 @@ p {
     width: 60%;
 }
 
+.rel-skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/*experience section */
+#projects-section {
+    display: flex;
+    flex-direction: row;
+}
+
+#projects-left{
+
+    width: 40%;
+}
+
+#projects-right {
+
+    width: 60%;
+}
