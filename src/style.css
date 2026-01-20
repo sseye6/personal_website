@@ -189,6 +189,7 @@ p {
     width: 60%;
 }
 
+/*skills section */
 #skills-section {
     display: flex;
     flex-direction: row;
@@ -208,3 +209,11 @@ p {
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+/*contact me section */
+#contact-me-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
