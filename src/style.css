@@ -105,14 +105,15 @@ p {
 .menu-button {
     display: block;
     text-align: center;
-    padding: 0px 20px;
+    padding: 25px 20px;
     color: #040811;
     font-size: 21.3px;
     text-decoration: none;
+    font-weight: normal;
 }
 
 .menu-button:hover {
-    background-color: rgba(239,243,248,0.75);
+    background-color: rgba(246, 190, 254, 0.75);
 }
 
 
