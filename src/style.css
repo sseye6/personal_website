@@ -134,7 +134,11 @@ p {
 
 #intro-headshot{
     order: 2;
-    width: auto;
+    border-radius: 50%;
+    max-width:40%;
+    object-fit: cover;
+    border-width: 1px;
+    border-color: #040811;
 }
 
 /*education section */
@@ -210,10 +214,13 @@ p {
     flex-wrap: wrap;
 }
 
+.skill-button:hover {
+    transform: scale(1.15);
+}
+
 /*contact me section */
 #contact-me-section {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
